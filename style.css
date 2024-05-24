@@ -1,0 +1,126 @@
+:root{
+    --color-white: white;
+    --color-grey: #f0f2f5;
+    --color-grey2: #dddfe2;
+    --color-black: #1d2129;
+    --color-blue: #1b74e4;
+    --color-blue2: #166fe5;
+    --color-green: #42b72a;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 90vw;
+    margin-top: 20px;
+    gap: 100px;
+      
+}
+
+.content-info{
+    width: 600px;
+}
+
+.content-login{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content-login-box{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0/ 10%) 0px 2px 4px, rgb(0 0 0/ 10%) 0px 8px 16px;
+}
+
+.inputs{
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid var(--color-grey2);
+    width: 90%;
+    font-size: 17px;
+    color: var(--color-black);
+
+
+}
+
+.inputs:focus{
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 2px var(--color-grey2);
+}
+
+.btn{
+    padding: 15px;
+    border: none;
+    color: var(--color-white);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: .2s;
+    cursor: pointer;
+}
+
+a{
+    color: var(--color-blue);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid var(--color-grey);
+}
+
+p{
+    text-align: center;
+}
+
+.btn-creat-account{
+    background-color: var(--color-green);
+    width: auto;
+}
+
+.btn-enter{
+    background-color: var(--color-blue);
+}
+
+btn-enter:hover{
+    background-color: var(--color-blue2);
+}
+
+h1{
+    color: var(--color-blue);
+    font-size: 4rem;
+    margin: 0px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+}
